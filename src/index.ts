@@ -1,3 +1,2 @@
-export * from "./widgets"
-export {properties as default} from "./appinton.config"
-
+export * as Demo from "./widgets/Demo";
+export { registeredComponents as default } from "./register";

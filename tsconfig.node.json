@@ -9,6 +9,7 @@
   "include": [
     "vite.config.ts",
     "package.json",
-    "./utils/dependencyManifestPlugin"
+    "appinton.config.ts",
+    "index.d.ts"
   ]
 }
