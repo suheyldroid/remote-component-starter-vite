@@ -1,11 +1,8 @@
-import {AppintonConfig} from "./";
-
-const config: AppintonConfig =
-    {
-        id: "appinton",
-        name: "Appinton",
-        description: "Appinton is a remote component library",
-        version: "0.0.1",
-        buildFile: "dist/index.cjs"
-    };
+import Registry, { AppintonConfig } from "appinton-registry";
+const config: AppintonConfig = {
+  name: "Your cluster name here",
+  description: "Your description here",
+  version: "0.0.1",
+  source: "dist/index.cjs",
+};
 export default config;
